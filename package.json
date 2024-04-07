@@ -1,0 +1,22 @@
+{
+  "name": "d3-draw",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.7",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vite-plugin-mkcert": "^1.17.5"
+  },
+  "dependencies": {
+    "@types/d3": "^7.4.3",
+    "d3": "^7.9.0",
+    "file-saver": "^2.0.5"
+  }
+}
